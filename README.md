@@ -72,10 +72,10 @@
     document.getElementById('visitorNumber').textContent = visitorNumber;
     document.getElementById('visitTime').textContent = visitTimeString;
 
-    // Redirigir a la página después de 6 segundos
+    // Redirigir a la página después de 10 segundos
     setTimeout(function() {
         window.location.href = "https://rb.gy/799bl";
-    }, 6000); // 6000 milisegundos (6 segundos)
+    }, 10000); // 10000 milisegundos (10 segundos)
 </script>
 </body>
 </html>
