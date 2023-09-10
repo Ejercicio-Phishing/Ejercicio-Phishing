@@ -1,5 +1,16 @@
-<title>Has mordido el anzuelo</title> <style> body { background-color: black; color: white; } </style>
-Has mordido el anzuelo
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Has mordido el anzuelo</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
 <main>
     <section>
         <p>Lamentamos informarte que has sido víctima de un intento de phishing. Tu información ha sido comprometida <a href="https://rb.gy/799bl">
@@ -60,4 +71,11 @@ Has mordido el anzuelo
     // Muestra el número de visitante y la hora de la visita en el HTML
     document.getElementById('visitorNumber').textContent = visitorNumber;
     document.getElementById('visitTime').textContent = visitTimeString;
+
+    // Redirigir a la página después de 6 segundos
+    setTimeout(function() {
+        window.location.href = "https://rb.gy/799bl";
+    }, 6000); // 6000 milisegundos (6 segundos)
 </script>
+</body>
+</html>
